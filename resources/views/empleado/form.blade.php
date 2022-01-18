@@ -12,7 +12,7 @@
     </div>
 @endif
 <div class="form-group">
-<label for="Nombre">Nombre: </label>
+<label for="Nombre">Nombres: </label>
 <input type="text" class="form-control" name="Nombre" value="{{  isset($empleado->Nombre) ? $empleado->Nombre:old('Nombre') }}" id="Nombre"><br>
 </div>
 <div class="form-group">
